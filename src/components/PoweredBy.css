@@ -1,0 +1,19 @@
+.powered__by{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color: white;
+}
+
+.open__weather__app__logo{
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+}

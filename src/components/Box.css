@@ -1,0 +1,46 @@
+.box{
+    border: 5px solid #0660d6;
+    color: white;
+    width: 300px;
+    margin: 50px 30px 25px;
+    height: 200px;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    transition:all .6s ease;
+}
+.box:hover{
+    box-shadow: #0660d6 0px 0px 35px;
+}
+
+.box__data{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.h1__data{
+    font-size: 22px;
+    margin: 0;
+}
+
+.closeBtn{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, .5);
+    transition: all .3s ease;
+}
+
+.closeBtn:hover{
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 1);
+}
