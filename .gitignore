@@ -5,8 +5,8 @@
 /.pnp
 .pnp.js
 .env
-/.firebase
-/.firebaserc
+.firebase
+.firebaserc
 firebase.json
 
 # testing
